@@ -7,7 +7,7 @@ const EventList = () => {
     <Event key={oneEvent.id} event={oneEvent} />
   ));
 
-  return <div class="timeline">{theEvents}</div>;
+  return <div className="timeline">{theEvents}</div>;
 };
 
 export default EventList;
